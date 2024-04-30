@@ -24,7 +24,7 @@
 
 ### El desafio
 
-Crear una tarjeta vista previa para un blog, usando HTML y CSS, y lograr que se parezca lo más posible al diseño.
+Crear una tarjeta vista previa para un blog, usando `HTML` y `CSS`, y lograr que se parezca lo más posible al diseño.
 
 ### Los usuarios deberían poder:
 
@@ -35,22 +35,21 @@ Crear una tarjeta vista previa para un blog, usando HTML y CSS, y lograr que se 
 ### Importante:
 
 1. Agrega icono favicon al proyecto.
-2. Agrega una URL fácil de recordar (ej. 02-blog-preview-card).
-3. Agrega un título al proyecto (ej. Blog Preview Card - Frontend Club).
-4. **Bonus**: Agrega un archivo readme.md al proyecto.
+2. Agrega una URL fácil de recordar (ej. `02-blog-preview-card`).
+3. Agrega un título al proyecto (ej. `Blog Preview Card - Frontend Club`).
+4. **Bonus**: Agrega un archivo README.md al proyecto.
 
 
 ### Capturas
 
 Agrega capturas de pantalla en móvil, tabletas y escritorio.
 
-![Captura](./img/mockup.webp)
-
+![Captura](images/mockup.webp)
 
 ### Enlaces
 
-- [Proyecto](https://01-profile-card-larry.netlify.app/)
-- [Repositorio](https://github.com/LarryIVC/100_days_of_projects_day1)
+- [Proyecto](https://02-blog-preview-card-larry.netlify.app/)
+- [Repositorio](https://github.com/LarryIVC/100_days_of_projects_day2)
 
 ## Flujo de trabajo
 
@@ -63,14 +62,16 @@ Agrega capturas de pantalla en móvil, tabletas y escritorio.
 📂
 ├── 📂css/│ 
 │ └── style.css
-├── 📂img/
-│ └── day01.webp
-│ └── favicon.svg
+├── 📂images/
+│ └── day02.webp
+│ └── favicon.png
+│ └── illustration-article.svg
 │ └── larry.webp
+│ └── logo.webp
 │ └── mockup.webp
 └── index.html
-└── README.md
 └── LICENSE
+└── README.md
 ```
 
 **Tecnologías**
@@ -102,26 +103,38 @@ Agrega capturas de pantalla en móvil, tabletas y escritorio.
 Etiquetas `meta` para el SEO.
 
 ```html
-<meta name="author" content="Larry Villegas Costas">
-<meta name="title" content="Profile Card - Larry Villegas Web Developer">
+<meta name="author" content="Larry Villegas Costas" />
+<meta
+  name="title"
+  content="Blog Preview Card - Larry Villegas Costas - Frontend Club"
+/>
 <meta
   name="description"
-  content="Profile Card - Larry Villegas Web Developer"
+  content="Blog Preview Card - Larry Villegas Costas - Frontend Club"
 />
-<title>Profile Card - Larry Villegas Web Developer</title>
+<title>
+      Blog Preview Card - Larry Villegas Costas - Frontend Club - day2
+</title>
 ```
 
 Animaciones CSS.
 
 ```css
-/* Estilos básicos del icono */
-svg .icon {
+article:hover {
+  -webkit-box-shadow: 15px 15px 0px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 15px 15px 0px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 15px 15px 0px 0px rgba(0, 0, 0, 0.75);
+}
+
+footer h2 {
+  font-size: 0.8rem;
+  color: #1b1b1b;
+  font-weight: 700;
   transition: all 0.3s ease-in-out;
 }
 
-svg:hover .icon {
-  fill: #fff;
-  transform: scale(1.1);
+footer a:hover > h2 {
+  color: #f6d050;
 }
 ```
 
