@@ -148,6 +148,7 @@ Comparte los recursos que hayas utilizado para completar este proyecto.
 4. [SVGOMG](https://jakearchibald.github.io/svgomg/) - Optimizador de SVG
 5. [Squoosh](https://squoosh.app/) - Optimizador de imágenes
 6. [Shots](https://shots.so/) - Capturas de pantalla
+7. [Google Fonts](https://fonts.google.com/) - Fuentes gratuitas
 
 ## Agradecimientos
 
